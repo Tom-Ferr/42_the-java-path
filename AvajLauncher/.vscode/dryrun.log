@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/TomasFerraz/Desktop/the-java-path/AvajLauncher'
+javac srcs/Main.java
+javac srcs/Aircraft.java
+javac srcs/Flyable.java
+javac srcs/Helicopter.java
+javac srcs/JetPlane.java
+javac srcs/Coordinates.java
+make: Leaving directory `/Users/TomasFerraz/Desktop/the-java-path/AvajLauncher'
+ 
+make: *** No rule to make target `srcs/Ballon.class', needed by `all'.
+

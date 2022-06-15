@@ -1,4 +1,4 @@
-public class Tower{
+public abstract class Tower{
     private Flyable observers;
 
     public void register(Flyable flyable){}
